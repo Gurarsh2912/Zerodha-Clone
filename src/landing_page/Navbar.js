@@ -1,4 +1,6 @@
 import React from "react";
+import AboutPage from './about/AboutPage';
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -27,9 +29,9 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" to="/about">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link active" href="#">
